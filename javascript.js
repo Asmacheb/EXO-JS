@@ -48,5 +48,35 @@
 
 //EXO6
 
-let joker = Math.floor(Math.random() * 100) + 1;
-console.log(joker)
+// let joker = Math.floor(Math.random() * 100) + 1;
+// console.log(joker)
+
+// EXO7
+
+// let titre = document.createElement("h1");
+// let contenu = document.createTextNode("Hello world")
+// titre.appendChild(contenu)
+// document.body.appendChild(titre);
+
+//  titre.className="monH1"
+//  titre.id="presentation"
+
+
+// let texte = document.createElement("p")
+// let presentation = document.createTextNode("je suis un paragraphe")
+// texte.appendChild(presentation);
+// document.body.appendChild(texte);
+
+// document.body.insertBefore(texte,titre)
+
+//Exo8
+let nombre;
+
+nombre = prompt("Entrer un nombre")
+
+let resultat = Math.floor(Math.random() * nombre) + 1;
+
+if (nombre > 0 ) {
+ console.log(resultat)
+}
+
